@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "name": "menu"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "className": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "ordre": {
+      "type": "integer"
+    },
+    "visible": {
+      "type": "boolean"
+    }
+  }
+}

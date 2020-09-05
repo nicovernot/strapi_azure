@@ -1,0 +1,11 @@
+
+  {
+    "provider": "azure-storage",
+    "providerOptions": {
+      "account": "${process.env.STORAGE_ACCOUNT}",
+      "accountKey": "${process.env.STORAGE_ACCOUNT_KEY}",
+      "containerName": "${process.env.STORAGE_CONTAINER_NAME}",
+      "defaultPath": "assets",
+      "maxConcurrent": 10
+    }
+  }

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blocktexts",
+  "info": {
+    "name": "blocktext"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "descrtiption": {
+      "type": "richtext"
+    },
+    "visible": {
+      "type": "boolean"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "ordre": {
+      "type": "integer"
+    },
+    "public": {
+      "type": "boolean"
+    }
+  }
+}

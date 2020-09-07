@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "departements",
+  "info": {
+    "name": "departements"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "nom": {
+      "type": "string"
+    }
+  }
+}

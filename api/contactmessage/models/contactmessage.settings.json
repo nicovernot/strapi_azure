@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contactmessages",
+  "info": {
+    "name": "contactmessage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "email"
+    },
+    "objet": {
+      "type": "string"
+    },
+    "message": {
+      "type": "richtext"
+    }
+  }
+}

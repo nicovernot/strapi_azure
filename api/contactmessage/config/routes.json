@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contactmessages",
+      "handler": "contactmessage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contactmessages/count",
+      "handler": "contactmessage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contactmessages/:id",
+      "handler": "contactmessage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/contactmessages",
+      "handler": "contactmessage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contactmessages/:id",
+      "handler": "contactmessage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contactmessages/:id",
+      "handler": "contactmessage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

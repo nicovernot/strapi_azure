@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adresses",
+  "info": {
+    "name": "adresse"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nomvoie": {
+      "type": "string"
+    },
+    "numvoie": {
+      "type": "integer"
+    },
+    "typevoie": {
+      "type": "enumeration",
+      "enum": [
+        "rue",
+        "avenue",
+        "chemin"
+      ]
+    },
+    "ville": {
+      "type": "string"
+    },
+    "codepostal": {
+      "type": "string"
+    },
+    "departement": {
+      "model": "departements",
+      "via": "adresses"
+    },
+    "annonces": {
+      "collection": "annonce",
+      "via": "adress"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "adresses"
+    }
+  }
+}

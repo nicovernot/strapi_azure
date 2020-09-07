@@ -528,6 +528,52 @@
           "nom": {
             "type": "string"
           },
+          "adresses": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "nomvoie": {
+                  "type": "string"
+                },
+                "numvoie": {
+                  "type": "integer"
+                },
+                "typevoie": {
+                  "type": "string"
+                },
+                "ville": {
+                  "type": "string"
+                },
+                "codepostal": {
+                  "type": "string"
+                },
+                "departement": {
+                  "type": "string"
+                },
+                "annonces": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "user": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "created_by": {
             "required": [
               "id",
@@ -625,6 +671,12 @@
           },
           "nom": {
             "type": "string"
+          },
+          "adresses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "created_by": {
             "type": "string"

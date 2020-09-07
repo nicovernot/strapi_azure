@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "annonces",
+  "info": {
+    "name": "annonce"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "photos": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "adress": {
+      "via": "annonces",
+      "model": "adresse"
+    },
+    "datedebut": {
+      "type": "date"
+    },
+    "datefin": {
+      "type": "date"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "userpublisher": {
+      "via": "annonces",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "tarif_heure": {
+      "type": "decimal"
+    },
+    "locations": {
+      "via": "annonce",
+      "collection": "location"
+    }
+  }
+}

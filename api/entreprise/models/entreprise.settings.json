@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entreprises",
+  "info": {
+    "name": "entreprise"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "tel": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "siren": {
+      "type": "string"
+    },
+    "adresses": {
+      "collection": "adresse"
+    },
+    "users": {
+      "via": "entreprise",
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "emailcontact": {
+      "type": "email"
+    }
+  }
+}

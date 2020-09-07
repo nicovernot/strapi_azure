@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locations",
+  "info": {
+    "name": "location"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "datedebut": {
+      "type": "date"
+    },
+    "datefin": {
+      "type": "date"
+    },
+    "user": {
+      "via": "locations",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "annonce": {
+      "model": "annonce",
+      "via": "locations"
+    },
+    "heuresparjour": {
+      "type": "integer"
+    }
+  }
+}

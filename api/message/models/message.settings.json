@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "messages",
+  "info": {
+    "name": "message"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "emeteur": {
+      "via": "messages",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "sujet": {
+      "type": "string"
+    },
+    "message": {
+      "type": "richtext"
+    },
+    "lu": {
+      "type": "boolean"
+    }
+  }
+}

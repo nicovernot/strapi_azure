@@ -29,6 +29,9 @@
     },
     "visible": {
       "type": "boolean"
+    },
+    "public": {
+      "type": "boolean"
     }
   }
 }

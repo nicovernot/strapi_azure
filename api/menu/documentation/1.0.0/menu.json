@@ -543,6 +543,9 @@
           "visible": {
             "type": "boolean"
           },
+          "public": {
+            "type": "boolean"
+          },
           "created_by": {
             "required": [
               "id",
@@ -654,6 +657,9 @@
             "type": "integer"
           },
           "visible": {
+            "type": "boolean"
+          },
+          "public": {
             "type": "boolean"
           },
           "created_by": {

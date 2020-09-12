@@ -1268,9 +1268,6 @@
               "tel": {
                 "type": "string"
               },
-              "contact": {
-                "type": "string"
-              },
               "siren": {
                 "type": "string"
               },
@@ -1284,6 +1281,15 @@
                 }
               },
               "emailcontact": {
+                "type": "string"
+              },
+              "actif": {
+                "type": "boolean"
+              },
+              "enabled": {
+                "type": "boolean"
+              },
+              "contact": {
                 "type": "string"
               },
               "created_by": {
@@ -1350,67 +1356,55 @@
             }
           },
           "locations": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "datedebut": {
-                  "type": "string"
-                },
-                "datefin": {
-                  "type": "string"
-                },
-                "user": {
-                  "type": "string"
-                },
-                "annonce": {
-                  "type": "string"
-                },
-                "heuresparjour": {
-                  "type": "integer"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "datedebut": {
+                "type": "string"
+              },
+              "datefin": {
+                "type": "string"
+              },
+              "annonce": {
+                "type": "string"
+              },
+              "heuresparjour": {
+                "type": "integer"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
               }
             }
           },
           "messages": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "emeteur": {
-                  "type": "string"
-                },
-                "sujet": {
-                  "type": "string"
-                },
-                "message": {
-                  "type": "string"
-                },
-                "lu": {
-                  "type": "boolean"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "sujet": {
+                "type": "string"
+              },
+              "message": {
+                "type": "string"
+              },
+              "lu": {
+                "type": "boolean"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
               }
             }
           },
@@ -1598,16 +1592,10 @@
             }
           },
           "locations": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
+            "type": "string"
           },
           "messages": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
+            "type": "string"
           },
           "adresses": {
             "type": "array",

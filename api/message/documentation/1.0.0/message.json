@@ -522,78 +522,6 @@
           "id": {
             "type": "string"
           },
-          "emeteur": {
-            "required": [
-              "id",
-              "username",
-              "email"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "username": {
-                "type": "string"
-              },
-              "email": {
-                "type": "string"
-              },
-              "provider": {
-                "type": "string"
-              },
-              "password": {
-                "type": "string"
-              },
-              "resetPasswordToken": {
-                "type": "string"
-              },
-              "confirmed": {
-                "type": "boolean"
-              },
-              "blocked": {
-                "type": "boolean"
-              },
-              "role": {
-                "type": "string"
-              },
-              "hote": {
-                "type": "boolean"
-              },
-              "entreprise": {
-                "type": "string"
-              },
-              "annonces": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "locations": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "messages": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "adresses": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
-          },
           "sujet": {
             "type": "string"
           },
@@ -695,9 +623,6 @@
       },
       "NewMessage": {
         "properties": {
-          "emeteur": {
-            "type": "string"
-          },
           "sujet": {
             "type": "string"
           },

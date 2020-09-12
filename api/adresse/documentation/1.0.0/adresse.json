@@ -672,16 +672,10 @@
                 }
               },
               "locations": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
+                "type": "string"
               },
               "messages": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
+                "type": "string"
               },
               "adresses": {
                 "type": "array",

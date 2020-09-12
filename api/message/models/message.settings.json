@@ -9,11 +9,6 @@
     "timestamps": true
   },
   "attributes": {
-    "emeteur": {
-      "via": "messages",
-      "plugin": "users-permissions",
-      "model": "user"
-    },
     "sujet": {
       "type": "string"
     },

@@ -15,9 +15,6 @@
     "tel": {
       "type": "string"
     },
-    "contact": {
-      "type": "string"
-    },
     "siren": {
       "type": "string"
     },
@@ -25,12 +22,22 @@
       "collection": "adresse"
     },
     "users": {
-      "via": "entreprise",
       "plugin": "users-permissions",
-      "collection": "user"
+      "collection": "user",
+      "via": "entreprise"
     },
     "emailcontact": {
       "type": "email"
+    },
+    "actif": {
+      "type": "boolean"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "contact": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }

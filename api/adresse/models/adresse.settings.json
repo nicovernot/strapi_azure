@@ -38,9 +38,9 @@
       "via": "adress"
     },
     "user": {
+      "via": "adresses",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "adresses"
+      "model": "user"
     }
   }
 }

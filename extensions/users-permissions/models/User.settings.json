@@ -57,24 +57,22 @@
       "type": "boolean"
     },
     "entreprise": {
-      "model": "entreprise",
-      "via": "users"
+      "via": "users",
+      "model": "entreprise"
     },
     "annonces": {
       "collection": "annonce",
       "via": "userpublisher"
     },
     "locations": {
-      "collection": "location",
-      "via": "user"
+      "collection": "location"
     },
     "messages": {
-      "collection": "message",
-      "via": "emeteur"
+      "collection": "message"
     },
     "adresses": {
-      "via": "user",
-      "collection": "adresse"
+      "collection": "adresse",
+      "via": "user"
     }
   }
 }

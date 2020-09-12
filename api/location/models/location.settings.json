@@ -15,11 +15,6 @@
     "datefin": {
       "type": "date"
     },
-    "user": {
-      "via": "locations",
-      "plugin": "users-permissions",
-      "model": "user"
-    },
     "annonce": {
       "model": "annonce",
       "via": "locations"

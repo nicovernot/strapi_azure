@@ -528,9 +528,6 @@
           "tel": {
             "type": "string"
           },
-          "contact": {
-            "type": "string"
-          },
           "siren": {
             "type": "string"
           },
@@ -626,16 +623,10 @@
                   }
                 },
                 "locations": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
+                  "type": "string"
                 },
                 "messages": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
+                  "type": "string"
                 },
                 "adresses": {
                   "type": "array",
@@ -654,6 +645,78 @@
           },
           "emailcontact": {
             "type": "string"
+          },
+          "actif": {
+            "type": "boolean"
+          },
+          "enabled": {
+            "type": "boolean"
+          },
+          "contact": {
+            "required": [
+              "id",
+              "username",
+              "email"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "username": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "password": {
+                "type": "string"
+              },
+              "resetPasswordToken": {
+                "type": "string"
+              },
+              "confirmed": {
+                "type": "boolean"
+              },
+              "blocked": {
+                "type": "boolean"
+              },
+              "role": {
+                "type": "string"
+              },
+              "hote": {
+                "type": "boolean"
+              },
+              "entreprise": {
+                "type": "string"
+              },
+              "annonces": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "locations": {
+                "type": "string"
+              },
+              "messages": {
+                "type": "string"
+              },
+              "adresses": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           },
           "created_by": {
             "required": [
@@ -753,9 +816,6 @@
           "tel": {
             "type": "string"
           },
-          "contact": {
-            "type": "string"
-          },
           "siren": {
             "type": "string"
           },
@@ -769,6 +829,15 @@
             }
           },
           "emailcontact": {
+            "type": "string"
+          },
+          "actif": {
+            "type": "boolean"
+          },
+          "enabled": {
+            "type": "boolean"
+          },
+          "contact": {
             "type": "string"
           },
           "created_by": {

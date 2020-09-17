@@ -1445,6 +1445,9 @@
                 "user": {
                   "type": "string"
                 },
+                "classname": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },

@@ -607,6 +607,9 @@
           "public": {
             "type": "boolean"
           },
+          "className": {
+            "type": "string"
+          },
           "created_by": {
             "required": [
               "id",
@@ -713,6 +716,9 @@
           },
           "public": {
             "type": "boolean"
+          },
+          "className": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"

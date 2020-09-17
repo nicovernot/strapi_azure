@@ -71,8 +71,8 @@
       "collection": "message"
     },
     "adresses": {
-      "collection": "adresse",
-      "via": "user"
+      "via": "user",
+      "collection": "adresse"
     }
   }
 }

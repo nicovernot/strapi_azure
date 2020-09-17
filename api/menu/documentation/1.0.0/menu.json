@@ -546,6 +546,46 @@
           "public": {
             "type": "boolean"
           },
+          "blocktexts": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "descrtiption": {
+                "type": "string"
+              },
+              "visible": {
+                "type": "boolean"
+              },
+              "image": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordre": {
+                "type": "integer"
+              },
+              "public": {
+                "type": "boolean"
+              },
+              "className": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "created_by": {
             "required": [
               "id",
@@ -661,6 +701,9 @@
           },
           "public": {
             "type": "boolean"
+          },
+          "blocktexts": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"

@@ -38,9 +38,12 @@
       "via": "adress"
     },
     "user": {
-      "via": "adresses",
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "adresses"
+    },
+    "classname": {
+      "type": "string"
     }
   }
 }

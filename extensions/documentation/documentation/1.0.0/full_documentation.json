@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "09/12/2020 8:27:02 AM"
+    "x-generation-date": "09/17/2020 9:15:35 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6922,6 +6922,9 @@
               }
             }
           },
+          "classname": {
+            "type": "string"
+          },
           "created_by": {
             "required": [
               "id",
@@ -7044,6 +7047,9 @@
             }
           },
           "user": {
+            "type": "string"
+          },
+          "classname": {
             "type": "string"
           },
           "created_by": {
@@ -7171,6 +7177,9 @@
                 }
               },
               "user": {
+                "type": "string"
+              },
+              "classname": {
                 "type": "string"
               },
               "created_by": {
@@ -7513,6 +7522,9 @@
           "public": {
             "type": "boolean"
           },
+          "className": {
+            "type": "string"
+          },
           "created_by": {
             "required": [
               "id",
@@ -7619,6 +7631,9 @@
           },
           "public": {
             "type": "boolean"
+          },
+          "className": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"
@@ -7811,6 +7826,9 @@
                 "user": {
                   "type": "string"
                 },
+                "classname": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -7982,6 +8000,9 @@
                 }
               },
               "user": {
+                "type": "string"
+              },
+              "classname": {
                 "type": "string"
               },
               "created_by": {
@@ -8479,6 +8500,46 @@
           "public": {
             "type": "boolean"
           },
+          "blocktexts": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "descrtiption": {
+                "type": "string"
+              },
+              "visible": {
+                "type": "boolean"
+              },
+              "image": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "ordre": {
+                "type": "integer"
+              },
+              "public": {
+                "type": "boolean"
+              },
+              "className": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "created_by": {
             "required": [
               "id",
@@ -8594,6 +8655,9 @@
           },
           "public": {
             "type": "boolean"
+          },
+          "blocktexts": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"
@@ -9242,6 +9306,9 @@
                   }
                 },
                 "user": {
+                  "type": "string"
+                },
+                "classname": {
                   "type": "string"
                 },
                 "created_by": {

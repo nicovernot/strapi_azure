@@ -16,7 +16,8 @@
       "type": "string"
     },
     "siren": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "adresses": {
       "collection": "adresse"

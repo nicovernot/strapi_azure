@@ -16,8 +16,8 @@
       "type": "date"
     },
     "annonce": {
-      "model": "annonce",
-      "via": "locations"
+      "via": "locations",
+      "model": "annonce"
     },
     "heuresparjour": {
       "type": "integer"

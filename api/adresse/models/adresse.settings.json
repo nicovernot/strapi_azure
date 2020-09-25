@@ -34,8 +34,8 @@
       "via": "adresses"
     },
     "annonces": {
-      "collection": "annonce",
-      "via": "adress"
+      "via": "adress",
+      "collection": "annonce"
     },
     "user": {
       "plugin": "users-permissions",

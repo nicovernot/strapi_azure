@@ -644,12 +644,6 @@
               }
             }
           },
-          "datedebut": {
-            "type": "string"
-          },
-          "datefin": {
-            "type": "string"
-          },
           "active": {
             "type": "boolean"
           },
@@ -852,12 +846,6 @@
             "type": "string"
           },
           "adress": {
-            "type": "string"
-          },
-          "datedebut": {
-            "type": "string"
-          },
-          "datefin": {
             "type": "string"
           },
           "active": {

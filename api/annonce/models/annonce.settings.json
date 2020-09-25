@@ -27,29 +27,23 @@
       "required": false
     },
     "adress": {
-      "via": "annonces",
-      "model": "adresse"
-    },
-    "datedebut": {
-      "type": "date"
-    },
-    "datefin": {
-      "type": "date"
+      "model": "adresse",
+      "via": "annonces"
     },
     "active": {
       "type": "boolean"
     },
     "userpublisher": {
-      "via": "annonces",
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "annonces"
     },
     "tarif_heure": {
       "type": "decimal"
     },
     "locations": {
-      "via": "annonce",
-      "collection": "location"
+      "collection": "location",
+      "via": "annonce"
     }
   }
 }

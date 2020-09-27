@@ -566,6 +566,9 @@
                   "type": "string"
                 }
               },
+              "equipement": {
+                "type": "component"
+              },
               "created_by": {
                 "type": "string"
               },

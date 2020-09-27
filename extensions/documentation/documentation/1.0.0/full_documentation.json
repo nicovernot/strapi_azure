@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "09/25/2020 7:48:29 AM"
+    "x-generation-date": "09/27/2020 11:29:54 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6841,6 +6841,9 @@
                     "type": "string"
                   }
                 },
+                "equipement": {
+                  "type": "component"
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -7287,6 +7290,29 @@
               }
             }
           },
+          "equipement": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "cafetiere": {
+                "type": "boolean"
+              },
+              "wifi": {
+                "type": "boolean"
+              },
+              "clim": {
+                "type": "boolean"
+              },
+              "chauffage": {
+                "type": "boolean"
+              }
+            }
+          },
           "created_by": {
             "required": [
               "id",
@@ -7401,6 +7427,29 @@
             "type": "array",
             "items": {
               "type": "string"
+            }
+          },
+          "equipement": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "cafetiere": {
+                "type": "boolean"
+              },
+              "wifi": {
+                "type": "boolean"
+              },
+              "clim": {
+                "type": "boolean"
+              },
+              "chauffage": {
+                "type": "boolean"
+              }
             }
           },
           "created_by": {
@@ -8139,6 +8188,31 @@
               }
             }
           },
+          "messages": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "sujet": {
+                "type": "string"
+              },
+              "message": {
+                "type": "string"
+              },
+              "lu": {
+                "type": "boolean"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "created_by": {
             "required": [
               "id",
@@ -8261,6 +8335,9 @@
           "contact": {
             "type": "string"
           },
+          "messages": {
+            "type": "string"
+          },
           "created_by": {
             "type": "string"
           },
@@ -8320,6 +8397,9 @@
                 "items": {
                   "type": "string"
                 }
+              },
+              "equipement": {
+                "type": "component"
               },
               "created_by": {
                 "type": "string"
@@ -9131,6 +9211,9 @@
               "contact": {
                 "type": "string"
               },
+              "messages": {
+                "type": "string"
+              },
               "created_by": {
                 "type": "string"
               },
@@ -9178,6 +9261,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "equipement": {
+                  "type": "component"
                 },
                 "created_by": {
                   "type": "string"

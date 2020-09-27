@@ -747,6 +747,29 @@
               }
             }
           },
+          "equipement": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "cafetiere": {
+                "type": "boolean"
+              },
+              "wifi": {
+                "type": "boolean"
+              },
+              "clim": {
+                "type": "boolean"
+              },
+              "chauffage": {
+                "type": "boolean"
+              }
+            }
+          },
           "created_by": {
             "required": [
               "id",
@@ -861,6 +884,29 @@
             "type": "array",
             "items": {
               "type": "string"
+            }
+          },
+          "equipement": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "cafetiere": {
+                "type": "boolean"
+              },
+              "wifi": {
+                "type": "boolean"
+              },
+              "clim": {
+                "type": "boolean"
+              },
+              "chauffage": {
+                "type": "boolean"
+              }
             }
           },
           "created_by": {

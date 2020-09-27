@@ -721,6 +721,31 @@
               }
             }
           },
+          "messages": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "sujet": {
+                "type": "string"
+              },
+              "message": {
+                "type": "string"
+              },
+              "lu": {
+                "type": "boolean"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "created_by": {
             "required": [
               "id",
@@ -841,6 +866,9 @@
             "type": "boolean"
           },
           "contact": {
+            "type": "string"
+          },
+          "messages": {
             "type": "string"
           },
           "created_by": {

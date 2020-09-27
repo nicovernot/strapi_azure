@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_equipement_equipements",
+  "info": {
+    "name": "equipement",
+    "icon": "box-open"
+  },
+  "options": {},
+  "attributes": {
+    "cafetiere": {
+      "type": "boolean"
+    },
+    "wifi": {
+      "type": "boolean"
+    },
+    "clim": {
+      "type": "boolean"
+    },
+    "chauffage": {
+      "type": "boolean"
+    }
+  }
+}

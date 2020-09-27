@@ -39,6 +39,9 @@
     "contact": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "messages": {
+      "collection": "message"
     }
   }
 }

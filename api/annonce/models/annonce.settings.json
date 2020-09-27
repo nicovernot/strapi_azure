@@ -44,6 +44,11 @@
     "locations": {
       "collection": "location",
       "via": "annonce"
+    },
+    "equipement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "equipement.equipement"
     }
   }
 }
